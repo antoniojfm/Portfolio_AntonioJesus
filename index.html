@@ -11,11 +11,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="estilo.css" type="text/CSS">
-    
-    
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/scroll_arriba.js"></script>
-
+   
     <!--Icon Web-->
     <link rel="shortcut icon" href="img/Logo.png">
 
@@ -26,52 +22,36 @@
     <div class="container-fluid">
 
         <div class="row header">
-            <div class=" col-lg-4 col-md-6 col-sm-6 col-xs-6 offset-lg-2">
-                <a href="index.html"><img class="img-fluid mx-auto mt-4" alt="logo" src="img/Logo.png" width="200px" height="150px"></a>
-            </div>
 
-            <div class="col-sm-6 col-md-6 pl-0">
-                <nav class="navbar navbar-expand-md menu">
-                    <ul class="navbar-nav d-md-flex mt-3">
-                        <li><a class="nav-link d-md-block d-none" href="#SobreMi">Sobre Mi</a></li>
-                        <li><a class="nav-link d-md-block d-none" href="#Habilidades">Habilidades</a></li>
-                        <li><a class="nav-link d-md-block d-none" href="#Proyectos">Proyectos</a></li>
-                        <li><a class="nav-link d-md-block d-none" href="#Contacto">Contacto</a></li>
-                    </ul>
-                </nav>
-                <nav class="navbar menuSM">
-                    <ul class="navbar-nav d-sm-block d-xs-block d-md-none mt-3">
-                        <li><a class="nav-link d-sm-block d-none" href="#SobreMi">Sobre Mi</a></li>
-                        <li><a class="nav-link d-sm-block d-none" href="#Habilidades">Habilidades</a></li>
-                        <li><a class="nav-link d-sm-block d-none" href="#Proyectos">Proyectos</a></li>
-                        <li><a class="nav-link d-sm-block d-none" href="#Contacto">Contacto</a></li>  
-                    </ul>
-                </nav> 
-            </div>
-
-            <div class="menuMovil d-sm-none">
-                <div class="dropdown dropleft">
-                    <button class="dropdown-toggle" type="button" id="MenuDesplegable" data-toggle="dropdown" aria-expanded="false">
-                        <img src="img/lista.png" width="25px" height="25px">
-                    </button>
-                    <div class="dropdown-menu text-center w-25" aria-labelledby="MenuDesplegable">
-                        <a class="dropdown-item" href="#SobreMi">Sobre Mi</a>
-                        <a class="dropdown-item" href="#Habilidades">Habilidades</a>
-                        <a class="dropdown-item" href="#Proyectos">Proyectos</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#Contacto">Contacto</a>
+            <div class="col-12">
+                <nav class="navbar navbar-expand-md navbar-dark menu">
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-xs-6 offset-lg-1">
+                        <a href="index.html"><img class="img-fluid mx-auto mt-4" alt="logo" src="img/Logo.png" width="180px"></a>
                     </div>
-                </div>
+
+                    <button class="navbar-toggler menuMovil" type="button" data-toggle="collapse" data-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="img/lista.png" width="30px" height="30px">
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav ml-5 mr-auto my-2 my-lg-0 navbar-nav-scroll">
+                            <li><a class="nav-link text-light" href="#SobreMi">Sobre Mi</a></li>
+                            <li><a class="nav-link text-light" href="#Habilidades">Habilidades</a></li>
+                            <li><a class="nav-link text-light" href="#Proyectos">Proyectos</a></li>
+                            <li><a class="nav-link text-light" href="#Contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
             
             <div class="col-12 mt-5">
-                <div class="col-md-5 col-sm-12 col-xs-12 offset-md-2 descripcion_DP">
+                <div class="col-lg-6 col-md-5 col-sm-12 col-xs-12 offset-md-1 descripcion_DP">
                     <img class="img-fluid mx-auto d-block perfil" src="img/perfil.jpg">
-                    <h3 class="text-center d-sm-block d-xs-block d-md-none mt-3">Antonio Jesus Fernandez Molina</h3> 
+                    <h3 class="text-center d-sm-block d-xs-block d-md-none mt-3">Antonio Jesús Fernández Molina</h3> 
                     <h4 class="text-center d-sm-block d-xs-block d-md-none mb-3">Desarrollador de Aplicaciones y WEB</h4>
                 </div>
-                <div class="col-md-4 offset-md-6 descripcion_DG">
-                    <h3 class="text-center d-md-block d-none">Antonio Jesus Fernandez Molina</h3>
+                <div class="col-lg-6 col-md-5 offset-md-5 descripcion_DG">
+                    <h3 class="text-center d-md-block d-none">Antonio Jesús Fernández Molina</h3>
                     <h4 class="text-center d-md-block d-none">Desarrollador de Aplicaciones y WEB</h4>
                 </div>
             </div>
@@ -83,12 +63,12 @@
                 <h2 class="text-center text-info">Sobre Mi</h2>
             </div>
 
-            <div class="col-md-6 col-sm-12 col-xs-12 mt-5 mb-5">
-                <img class="img-fluid mx-auto" src="img/fotoSobreMi.jpg"> 
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 mt-5 mb-5">
+                <img class="img-fluid mx-auto w-100" src="img/fotoSobreMi.jpg"> 
             </div>
 
-            <div class="col-md-5 col-sm-12 col-xs-12 text-justify mt-5 mb-5">
-                <h5 class="mt-3">Hola, soy Antonio Jesús Fernández Molina y soy una persona que está aun en pleno aprendizaje tanto estudiando y aprendiendo.</h5><br/>
+            <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12 text-justify mt-5 mb-5">
+                <h5 class="mt-3">Hola, soy Antonio Jesús Fernández Molina y soy una persona que le gusta aprender toda variedad de tecnologías relacionado con la programación.</h5><br/>
                 <p>Los ámbitos que más me gustan sobre todo el tema de aplicaciones en Android y en IOS y la programación en Web.</p>
                 <p>Empecé a meterme en el mundo de la programacion hace 3 años ya que me pareció interesante al principio por las páginas web y luego más tarde también las aplicaciones en el móvil.</p>
                 <a href="Curriculum_AntonioJesus.pdf" class="boton_curriculum mx-auto mb-5" download="Curriculum Vitae" title="Descarga de Curriculum" target="blank">Curriculum Vitae <img class="img-fluid mb-1" src="img/curriculum.png" width="30px" height="30px"></a>
@@ -177,9 +157,9 @@
                 <h2 class="text-center mb-5 seccion_proyecto">Proyectos</h2>
             </div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
-                <div class="card">
-                    <img src="img/proyectos/bootstrap_imagen_proyecto.png" class="card-img-top" height="200px">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4">
+                <div class="card h-100">
+                    <img src="img/proyectos/bootstrap_imagen_proyecto.png" class="card-img-top w-100 img-fluid" height="200px">
                     <div class="card-body">
                         <h5 class="card-title text-center">Proyecto Cooperativa del Pilar</h5>
                         <p class="card-text">Este proyecto trata de una pagina web para la Cooperativa del Pilar de Villacarrillo desarrollada en bootstrap. Esta pagina nos muestra información, imágenes y productos de la cooperativa.</p>
@@ -188,9 +168,9 @@
                 </div>
             </div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
-                <div class="card">
-                    <img src="img/proyectos/kotlin_imagen_proyecto.png" class="card-img-top" height="200px">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4">
+                <div class="card h-100">
+                    <img src="img/proyectos/kotlin_imagen_proyecto.png" class="card-img-top w-100 img-fluid" height="200px">
                     <div class="card-body">
                         <h5 class="card-title text-center">Proyecto API Football</h5>
                         <p class="card-text">Este proyecto en grupo trata de una aplicacion en Android desarrollada en Kotlin que muestra estadisticas de partidos de futbol como resultados, goles, maximos goleadores, tabla de clasificacion.</p>
@@ -201,9 +181,9 @@
             
             <div class="w-100 d-sm-block d-md-none"></div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-4">
-                <div class="card">
-                    <img src="img/proyectos/php_imagen_proyecto.jpg" class="card-img-top" height="200px">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-4">
+                <div class="card h-100">
+                    <img src="img/proyectos/php_imagen_proyecto.jpg" class="card-img-top w-100 img-fluid" height="200px">
                     <div class="card-body">
                         <h5 class="card-title text-center">Proyecto Administracion y Gestion de Usuarios</h5>
                         <p class="card-text">Este proyecto desarrollado en PHP, MySQL HTML y CSS y consiste en administrar usuarios desde una base de datos con creacion, listado, actualizacion y borrado.</p>
@@ -214,9 +194,9 @@
 
             <div class="w-100 d-md-block d-sm-none"></div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-5">
-                <div class="card">
-                    <img src="img/proyectos/html_imagen_proyecto.jpg" class="card-img-top" height="200px">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-5">
+                <div class="card h-100">
+                    <img src="img/proyectos/html_imagen_proyecto.jpg" class="card-img-top w-100 img-fluid" height="200px">
                     <div class="card-body">
                         <h5 class="card-title text-center">Proyecto Web Ingeniería y Gestion</h5>
                         <p class="card-text">Este proyecto es una web desarrollada en HTML y CSS para informacion acerca de la empresa Ingeniería y Gestión de Villacarrillo - Jaén.</p>
@@ -227,9 +207,9 @@
             
             <div class="w-100 d-sm-block d-md-none"></div>
 
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-5">
-                <div class="card">
-                    <img src="img/proyectos/kotlin_imagen_proyecto.png" class="card-img-top" height="200px">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-5">
+                <div class="card h-100">
+                    <img src="img/proyectos/kotlin_imagen_proyecto.png" class="card-img-top w-100 img-fluid" height="200px">
                     <div class="card-body">
                         <h5 class="card-title text-center">Proyecto App Ciudades</h5>
                         <p class="card-text">Este proyecto trata de una App hecha en Kotlin que nos permite añadir ciudades a un mapa y a la base de datos, tambien actualizar, borrar, listar y otras mas.</p>
@@ -238,9 +218,9 @@
                 </div>
             </div>
             
-            <div class="col-md-3 col-sm-6 col-xs-12 mb-5">
-                <div class="card">
-                    <img src="img/proyectos/swift_imagen_proyecto.jpg" class="card-img-top w-100" height="200px">
+            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 mb-5">
+                <div class="card h-100">
+                    <img src="img/proyectos/swift_imagen_proyecto.jpg" class="card-img-top w-100 img-fluid" height="200px">
                     <div class="card-body">
                         <h5 class="card-title text-center">Proyecto API Rick-Morty</h5>
                         <p class="card-text">Este proyecto trata de una App hecha en Swift, que nos permite obtener datos de la API de Rick y Morty para obtener informacion de los personajes, episodios.</p>
@@ -257,7 +237,7 @@
                 <form class="mx-auto d-block w-50" action="https://formsubmit.co/6282a194f2b53dd556b00ab168cd07d4" method="POST" id="formulario">
                     <label for="Nombre">Nombre*</label><input type="text" class="form-control" name="Nombre" id="Nombre" maxlength="60" required><br/>
                     <label for="Correo_Electronico">Correo Electronico*</label><input type="email" class="form-control" name="Correo" id="Correo_Electronico" maxlength="60" required><br/>
-                    <label for="Comentarios">Comentarios</label><br/><textarea rows="3" cols="30" name="Comentario" id="Comentarios" maxlength="80"></textarea><br/><br/>
+                    <label for="Comentarios">Comentarios*</label><br/><textarea class="form-control" rows="3" cols="30" name="Comentario" id="Comentarios" maxlength="80" required></textarea><br/><br/>
                     <button type="submit" class="btn btn-info rounded mx-auto d-block boton">Enviar</button><br/>
 
                     <script src="js/validacion_Formulario.js"></script>
@@ -270,30 +250,40 @@
             </div>
         </div>
 
-        <div class="row bg-dark justify-content-center align-items-center">
+        <div class="row bg-dark justify-content-center align-items-center text-center p-3">
 
-            <div class="col-12 text-center text-light p-4">
-                <ul class="redes_sociales">
-                    <li><a href="https://www.linkedin.com/in/antonio-jesus-fernandez-molina-699711229/" target="blank"><img src="img/redes_sociales/linkedin.png" width="40px" height="40px"></a></li>
-                    <li><a href="https://www.instagram.com/antoniojfm_7/" target="blank"><img src="img/redes_sociales/instagram.png" width="40px" height="40px"></a></li>
-                    <li><a href="https://twitter.com/antoniojfm_7" target="blank"><img src="img/redes_sociales/twitter.png" width="40px" height="40px"></a></li>
-                </ul>
-                <span>© 2023 Copyright | Antonio Jesus Fernandez Molina</span>    
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4">
+                    <ul class="redes_sociales">
+                        <li><a href="https://github.com/antoniojfm" target="blank"><img src="img/redes_sociales/github_contacto.png" width="40px" height="40px"></a></li>
+                        <li><a href="https://www.linkedin.com/in/antonio-jesus-fernandez-molina-699711229/" target="blank"><img src="img/redes_sociales/linkedin.png" width="40px" height="40px"></a></li>
+                        <li><a href="https://www.instagram.com/antoniojfm_7/" target="blank"><img src="img/redes_sociales/instagram.png" width="40px" height="40px"></a></li>
+                        <li><a href="https://twitter.com/antoniojfm_7" target="blank"><img src="img/redes_sociales/twitter.png" width="40px" height="40px"></a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 mt-5 mb-5">
+                    <a class="correo" href="mailto:ajfernandezmolina12@gmail.com">ajfernandezmolina12@gmail.com</a>
+                </div>
+
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 text-light">
+                    <span>© 2023 Copyright | Antonio Jesus Fernandez Molina</span>
+                </div>
+                 
             </div>
 
         </div>
-        
-        <a class="boton_scroll_arriba"><img src="img/up-arrow.png" width="20px" height="20px"></a>
+
+        <a id="boton_scroll" class="boton_scroll_arriba"><img src="img/up-arrow.png" width="20px" height="20px"></a>
+        <script src="js/scroll_arriba.js"></script>
+
     </div>
-    
-    
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
-
 
 </body>
 </html>

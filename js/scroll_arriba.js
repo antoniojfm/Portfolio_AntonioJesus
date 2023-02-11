@@ -5,12 +5,12 @@ let visible = false;
 function Scroll() {
 	let posicion = window.scrollY;
   	if(posicion > 0) {
-    	   visible = true;
-    	   document.getElementById("boton_scroll").style.display = "block";	
+    	visible = true;
+    	document.getElementById("boton_scroll").style.display = "block";	
   	} 
 	else {
-    	   visible = false;
-    	   document.getElementById("boton_scroll").style.display = "none";
+    	visible = false;
+    	document.getElementById("boton_scroll").style.display = "none";
   	}
 }
 
